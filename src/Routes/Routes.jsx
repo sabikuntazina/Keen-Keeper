@@ -1,9 +1,10 @@
 import { createBrowserRouter } from "react-router";
 import MainLayouts from "../LayOuts/MainLayouts/MainLayouts";
 import HomePage from "../Pages/HomePage/HomePage";
-import TImeLine from "../Pages/TimeLine/TImeLine";
 import States from "../Pages/States/States";
 import Friends from "../Components/Friends/Friends";
+import FriendDetail from "../Components/Friends/FriendDetail/FriendDetail";
+import TimeLine from "../Pages/TimeLine/TimeLine";
 
 
 export const router = createBrowserRouter([
@@ -17,7 +18,7 @@ export const router = createBrowserRouter([
       },
       {
         path:'timeline',
-        Component: TImeLine,
+        Component: TimeLine ,
       },
       {
         path:'/states',
@@ -27,6 +28,11 @@ export const router = createBrowserRouter([
         path: 'friends',
         Component: Friends,
         loader:()=> fetch('/data.json'),
+      },
+      {
+        path: 'friends/:id',
+        Component: FriendDetail,
+        loader: ()=>fetch('/data.json')
       }
     ]
   },
