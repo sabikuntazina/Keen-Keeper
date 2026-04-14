@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Ayesha Rahman",
-    "picture": "https://randomuser.me/api/portraits/women/45.jpg",
+    "picture": "https://i.ibb.co.com/Y4qCMMRH/Ellipse-1.png",
     "email": "ayesha.rahman@gmail.com",
     "days_since_contact": 18,
     "status": "overdue",
@@ -15,7 +15,7 @@
   {
     "id": 2,
     "name": "Tanvir Hasan",
-    "picture": "https://randomuser.me/api/portraits/men/32.jpg",
+    "picture": "https://i.ibb.co.com/Zp9wDLQ4/Ellipse-1-1.png",
     "email": "tanvir.hasan@yahoo.com",
     "days_since_contact": 10,
     "status": "almost due",
@@ -28,7 +28,7 @@
   {
     "id": 3,
     "name": "Nusrat Jahan",
-    "picture": "https://randomuser.me/api/portraits/women/68.jpg",
+    "picture": "https://i.ibb.co.com/pvP9JnbS/Ellipse-1-2.png",
     "email": "nusrat.jahan@gmail.com",
     "days_since_contact": 5,
     "status": "on-track",
@@ -41,7 +41,7 @@
   {
     "id": 4,
     "name": "Rafi Ahmed",
-    "picture": "https://randomuser.me/api/portraits/men/75.jpg",
+    "picture": "https://i.ibb.co.com/cSZ1CQp3/Ellipse-1-3.png",
     "email": "rafi.ahmed@gmail.com",
     "days_since_contact": 20,
     "status": "overdue",
@@ -54,7 +54,7 @@
   {
     "id": 5,
     "name": "Mariam Chowdhury",
-    "picture": "https://randomuser.me/api/portraits/women/21.jpg",
+    "picture": "https://i.ibb.co.com/xtNVBgsv/Ellipse-1-4.png",
     "email": "mariam.chy@gmail.com",
     "days_since_contact": 11,
     "status": "almost due",
@@ -67,7 +67,7 @@
   {
     "id": 6,
     "name": "Imran Hossain",
-    "picture": "https://randomuser.me/api/portraits/men/41.jpg",
+    "picture": "https://i.ibb.co.com/rKVLSVq1/Ellipse-1-5.png",
     "email": "imran.hossain@gmail.com",
     "days_since_contact": 3,
     "status": "on-track",
@@ -80,7 +80,7 @@
   {
     "id": 7,
     "name": "Sadia Karim",
-    "picture": "https://randomuser.me/api/portraits/women/56.jpg",
+    "picture": "https://i.ibb.co.com/1DR8bmj/Ellipse-1-6.png",
     "email": "sadia.karim@gmail.com",
     "days_since_contact": 16,
     "status": "overdue",
@@ -93,7 +93,7 @@
   {
     "id": 8,
     "name": "Arif Mahmud",
-    "picture": "https://randomuser.me/api/portraits/men/29.jpg",
+    "picture": "https://i.ibb.co.com/N2brf6nQ/Ellipse-1-7.png",
     "email": "arif.mahmud@gmail.com",
     "days_since_contact": 9,
     "status": "almost due",
@@ -106,7 +106,7 @@
   {
     "id": 9,
     "name": "Farhana Akter",
-    "picture": "https://randomuser.me/api/portraits/women/33.jpg",
+    "picture": "https://i.ibb.co.com/0RMzQjMg/Ellipse-1-8.png",
     "email": "farhana.akter@gmail.com",
     "days_since_contact": 2,
     "status": "on-track",
@@ -119,7 +119,7 @@
   {
     "id": 10,
     "name": "Shakil Khan",
-    "picture": "https://randomuser.me/api/portraits/men/52.jpg",
+    "picture": "https://i.ibb.co.com/gZqgZ2TQ/Ellipse-1-9.png",
     "email": "shakil.khan@gmail.com",
     "days_since_contact": 22,
     "status": "overdue",
@@ -128,5 +128,31 @@
     "bio": "Met online through gaming. We still play occasionally.",
     "goal": 14,
     "next_due_date": "2026-04-05"
+  },
+  {
+    "id": 11,
+    "name": "Nabila Sultana",
+    "picture": "https://i.ibb.co.com/HfW3sQPT/Ellipse-1-10.png",
+    "email": "nabila.sultana@gmail.com",
+    "days_since_contact": 6,
+    "status": "on-track",
+    "category": "TRAVEL",
+    "tags": ["college", "trip partner"],
+    "bio": "College friend and favorite travel companion.",
+    "goal": 10,
+    "next_due_date": "2026-04-21"
+  },
+  {
+    "id": 12,
+    "name": "Rakib Islam",
+    "picture": "https://i.ibb.co.com/xtnSZjQC/Ellipse-1-11.png",
+    "email": "rakib.islam@gmail.com",
+    "days_since_contact": 13,
+    "status": "almost due",
+    "category": "WORK",
+    "tags": ["startup", "business partner"],
+    "bio": "Startup friend. We often discuss ideas and business growth.",
+    "goal": 14,
+    "next_due_date": "2026-04-15"
   }
 ]

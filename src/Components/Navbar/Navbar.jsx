@@ -39,7 +39,7 @@ const Navbar = () => {
         tabIndex="-1"
         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
         { 
-        routers.map(router=>  <NavLink to={router.path} className={'pb-2.5 flex justify-between items-center gap-2'}> {router.icon} {router.name}</NavLink>)
+        routers.map((router,index)=>  <NavLink key={index} to={router.path} className={'pb-2.5 flex justify-between items-center gap-2'}> {router.icon} {router.name}</NavLink>)
         }
       </ul>
     </div>
@@ -48,7 +48,7 @@ const Navbar = () => {
   <div className="navbar-end hidden lg:flex">
     <ul className="flex justify-between items-center gap-6 text-xl font-semibold">
         { 
-              routers.map(router=>  <NavLink to={router.path} className={'pb-2.5 text-2xl flex justify-between text-gray-700 items-center gap-2'}> {router.icon} {router.name}</NavLink>)
+              routers.map((router,index)=>  <NavLink key={index} to={router.path} className={'pb-2.5 text-2xl flex justify-between text-gray-700 items-center gap-2'}> {router.icon} {router.name}</NavLink>)
         }
     </ul>
   </div>
