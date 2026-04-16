@@ -1,31 +1,42 @@
-import React, { createContext, useState } from 'react';
+import React, { createContext, useState } from "react";
+import { toast } from "react-toastify";
 
-export const FriendDataContext= createContext('');
+export const FriendDataContext = createContext("");
 
-const FriendDataProviderContext = ({children}) => {
+const FriendDataProviderContext = ({ children }) => {
+  const [timeLineState, setTimeLineState] = useState([]);
 
-   const [timeLineState,setTimeLineState] =useState([]);
-
-   const handleTimeLine=(expectedFriend, status)=>{
-      const updatedFriend = {
-    ...expectedFriend,
-    status: status,
-     time: new Date()
+  const handleTimeLine = (expectedFriend, status) => {
+    const updatedFriend = {
+      ...expectedFriend,
+      id: Date.now(),
+      status: status,
+      time: new Date(),
+    };
+    if (status === "Call") {
+      toast.success(`Call with ${expectedFriend.name}`, {
+        position: "top-center",
+      });
+    } else if (status === "Text") {
+      toast.success(`Text with ${expectedFriend.name}`, {
+        position: "top-center",
+      });
+    } else {
+      toast.success(`Video with ${expectedFriend.name}`, {
+        position: "top-center",
+      });
+    }
+    setTimeLineState([...timeLineState, updatedFriend]);
   };
-    setTimeLineState([...timeLineState,updatedFriend]);
-
-
-   }
-   const data= {
+  const data = {
     timeLineState,
     handleTimeLine,
-   }
+  };
   return (
     <div>
       <FriendDataContext.Provider value={data}>
-          {children}
+        {children}
       </FriendDataContext.Provider>
-      
     </div>
   );
 };

@@ -12,11 +12,11 @@ const FriendDetail = () => {
   return (
     <div className="bg-[#f8fafc] py-12">
 
-      <div className="grid grid-cols-12 gap-10 max-w-7xl mx-auto ">
-        <div className="col-span-4">
+      <div className="grid md:grid-cols-12 gap-10 max-w-7xl mx-auto px-5">
+        <div className="md:col-span-4">
           <LeftSide expectedFriend={expectedFriend}></LeftSide>
         </div>
-        <div className="col-span-8">
+        <div className="md:col-span-8">
           <RightSide expectedFriend={expectedFriend} ></RightSide>
         </div>
       </div>
