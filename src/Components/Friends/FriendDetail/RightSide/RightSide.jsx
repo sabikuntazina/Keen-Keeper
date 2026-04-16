@@ -26,7 +26,7 @@ const RightSide = ({expectedFriend}) => {
 </div>
 
 <div className='bg-white rounded-xl space-y-4 py-10 px-14'>
-  <div className='flex justify-between items-center'>
+  <div className='flex flex-col md:flex-row justify-between items-center'>
     <h2 className='text-2xl md:text-5xl text-[#244D3F]'>Relationship Goal</h2>
     <h4 className='btn text-xl'>Edit</h4>
   </div>

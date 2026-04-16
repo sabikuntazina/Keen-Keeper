@@ -26,6 +26,7 @@ const LeftSideProfileCard = ({expectedFriend}) => {
   {expectedFriend.status}
 </p>
 <p>{expectedFriend.bio}</p>
+<p className='text-gray-500'>{expectedFriend.email}</p>
   </div>
   
 </div>
