@@ -1,16 +1,32 @@
-# React + Vite
+# Project Name: KeenKeeper — Keep Your Friendships Alive
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+KeenKeeper is a responsive friendship management web application that helps users stay connected with friends by tracking interactions, managing contact goals, and maintaining communication history in one place.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Technologies Used
 
-## React Compiler
+* React.js
+* Tailwind CSS
+* DaisyUI
+* JavaScript (ES6+)
+* React Router
+* React Icons
+* React-Toastify
+* Recharts
+* JSON
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+## Features:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 1. Friend Profile Management
+Users can view detailed friend profiles including contact status, tags, bio, email, and relationship goals, helping them stay organized and connected.
+
+### 2. Timeline Filtering System
+The Timeline page allows users to filter interaction history by Call, Text, or Video, making it easy to view specific communication records.
+
+### 3. Friendship Analytics Dashboard(States)
+Interactive charts on the Stats page visualize communication patterns by showing the total number of calls, texts, and video interactions.
+
+### 4. Real-Time Toast Notifications
+Whenever a user clicks Call, Text, or Video, instant toast notifications provide feedback confirming the successful action.
