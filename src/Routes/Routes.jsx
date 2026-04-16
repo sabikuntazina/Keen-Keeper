@@ -5,6 +5,7 @@ import States from "../Pages/States/States";
 import Friends from "../Components/Friends/Friends";
 import FriendDetail from "../Components/Friends/FriendDetail/FriendDetail";
 import TimeLine from "../Pages/TimeLine/TimeLine";
+import ErrorPage from "../Pages/ErrorPage/ErrorPage";
 
 
 export const router = createBrowserRouter([
@@ -36,4 +37,8 @@ export const router = createBrowserRouter([
       }
     ]
   },
+  {
+    path: '*',
+   element: <ErrorPage></ErrorPage>
+  }
 ]);
