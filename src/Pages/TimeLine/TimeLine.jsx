@@ -9,7 +9,7 @@ const TimeLine = () => {
   const [sorting, setSorting] = useState("");
 
 const handleSorting = (sortType) => {
-  console.log(sortType);
+  // console.log(sortType);
   setSorting(sortType);
 };
 
