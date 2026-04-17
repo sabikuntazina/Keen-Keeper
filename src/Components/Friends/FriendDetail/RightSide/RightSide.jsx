@@ -36,7 +36,7 @@ const RightSide = ({expectedFriend}) => {
 <div className='bg-white rounded-xl space-y-4 py-10 px-14'>
 
     <h2 className='text-xl md:text-3xl text-[#244D3F]'>Quick Check-In</h2>
-    <div className='grid grid-cols-2 md:grid-cols-3 gap-4'>
+    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
       <button onClick={()=>handleTimeLine(expectedFriend, 'Call' )} className='btn py-10 px-12 rounded-xl text-xl md:text-2xl '><FiPhoneCall /> Call</button>
       <button onClick={()=>handleTimeLine(expectedFriend, 'Text' )} className='btn py-10 px-12 rounded-xl text-xl md:text-2xl '><MdOutlineTextsms /> Text</button>
       <button onClick={()=>handleTimeLine(expectedFriend, 'Video' )} className='btn py-10 px-12 rounded-xl text-xl md:text-2xl '><MdOutlineVideocam /> Video</button>
